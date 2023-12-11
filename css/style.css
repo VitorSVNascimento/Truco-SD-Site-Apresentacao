@@ -1,0 +1,54 @@
+body{
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#index-banner,#video-banner{
+  width: 70%;
+  margin: auto;
+}
+
+#skils-div{
+  margin-bottom: 0px;
+}
+
+#video-banner{
+  margin-bottom: 10px;
+}
+
+#logo-img{
+  width: 100%;
+}
+
+#video-demonstracao{
+  width: 100%;
+}
+
+#text-video{
+  text-align: center;
+}
+
+#text-header{
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width:475px){
+  #logo-img{
+    width: 100%;
+  }  
+
+  #index-banner,#video-banner{
+    width: 90%;
+    margin: auto;
+  }
+}
